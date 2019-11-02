@@ -2,7 +2,10 @@ package com.example.appthitit;
 
 public class Contect {
     private String time;
-    private int icon,nhietdo;
+    private int icon,nhietdo,doam;
+
+    public Contect() {
+    }
 
     @Override
     public String toString() {
@@ -13,10 +16,20 @@ public class Contect {
                 '}';
     }
 
-    public Contect(String time, int icon, int nhietdo) {
+    public Contect(String time, int icon, int nhietdo,int doam) {
         this.time = time;
         this.icon = icon;
         this.nhietdo = nhietdo;
+        this.doam=doam;
+
+    }
+
+    public int getDoam() {
+        return doam;
+    }
+
+    public void setDoam(int doam) {
+        this.doam = doam;
     }
 
     public String getTime() {

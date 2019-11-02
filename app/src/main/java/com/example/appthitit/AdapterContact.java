@@ -35,6 +35,7 @@ public void setIonClickContect(IonClickContect ionClickContect){
     @Override
     public void onBindViewHolder(@NonNull AdapterContact.ViewHoder holder, int position) {
 Contect contect=Contacts.get(position);
+holder.doam.setText(contect.getDoam()+"%");
 holder.wheather.setImageResource(contect.getIcon());
 holder.nhietdo.setText(contect.getNhietdo()+"");
 holder.time.setText(contect.getTime()+"");
@@ -46,11 +47,12 @@ holder.time.setText(contect.getTime()+"");
     }
 
     public class ViewHoder extends RecyclerView.ViewHolder {
-        TextView time,nhietdo;
+        TextView time,nhietdo,doam;
         ImageView wheather;
         public ViewHoder(@NonNull View itemView) {
 
             super(itemView);
+            doam=itemView.findViewById(R.id.doam);
             time=itemView.findViewById(R.id.timeofday);
             nhietdo=itemView.findViewById(R.id.nhietdo);
             wheather=itemView.findViewById(R.id.weather);

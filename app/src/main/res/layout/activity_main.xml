@@ -21,94 +21,73 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="142dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/_36sdp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
                     android:orientation="vertical">
 
                     <ImageView
 
                         android:id="@+id/search"
-                        android:layout_width="35dp"
-                        android:layout_height="35dp"
-                        android:src="@drawable/search" />
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/searchtrang" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:src="@drawable/video" />
+                        android:layout_marginTop="@dimen/_20sdp" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="270dp"
+                    android:layout_width="@dimen/_207sdp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_width="270dp"
-                        android:layout_height="40dp">
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_40sdp">
 
                         <LinearLayout
                             android:id="@+id/baonhapvao"
-                            android:layout_width="270dp"
-                            android:layout_height="40dp"
+                            android:layout_width="@dimen/_200sdp"
+                            android:layout_height="@dimen/_30sdp"
                             android:background="@drawable/backgrow3">
 
                             <EditText
                                 android:id="@+id/nhapvao"
-                                android:layout_width="250dp"
-                                android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp"
+                                android:layout_width="@dimen/_180sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_10sdp"
 
                                 android:textColor="@color/colorAccent2" />
                         </LinearLayout>
 
                     </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/tendiadanh"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:gravity="center"
-                        android:text="Hà Nội"
-                        android:textSize="30dp" />
                 </LinearLayout>
 
 
                 <LinearLayout
-                    android:layout_width="30dp"
-                    android:layout_height="125dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
                     android:orientation="vertical">
 
                     <ImageView
 
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_width="@dimen/_27sdp"
+                        android:layout_height="@dimen/_27sdp"
                         android:src="@drawable/setting" />
-
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="12dp"
-                        android:src="@drawable/map" />
-
-                    <ImageView
-                        android:id="@+id/bieudo"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="12dp"
-                        android:src="@drawable/bieudo" />
 
 
                 </LinearLayout>
@@ -120,119 +99,206 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-
                 android:orientation="vertical">
 
+
                 <LinearLayout
-                    android:layout_width="300dp"
-                    android:layout_height="300dp"
+
+                    android:layout_width="@dimen/_253sdp"
+                    android:layout_height="@dimen/_253sdp"
                     android:background="@drawable/backgrow"
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="130dp"
-                        android:layout_gravity="center"
-                        android:orientation="horizontal">
+                    <TextView
 
-                        <TextView
-                            android:id="@+id/nhietdo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="166dp"
-                            android:layout_marginTop="12dp"
-                            android:gravity="center"
-                            android:text="24"
-                            android:textColor="@color/colorAccent2"
-                            android:textSize="90dp" />
+                        android:id="@+id/tendiadanh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="Hà Nội"
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="@dimen/_30sdp" />
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                         <LinearLayout
-                            android:layout_width="100dp"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:layout_marginLeft="@dimen/_4sdp"
+                            android:orientation="horizontal">
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal">
+                                android:orientation="vertical">
 
                                 <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="o"
-                                    android:textColor="@color/colorAccent2" />
-
-                                <TextView
-                                    android:layout_width="55dp"
-                                    android:layout_height="55dp"
-                                    android:layout_marginTop="20dp"
-                                    android:text="c"
+                                    android:layout_marginTop="@dimen/_58sdp"
+                                    android:text="Độ ẩm"
                                     android:textColor="@color/colorAccent2"
-                                    android:textSize="50dp" />
+                                    android:textSize="@dimen/_20sdp" />
+                                <TextView
+                                    android:layout_marginTop="@dimen/_12sdp"
+                                    android:layout_marginLeft="@dimen/_15sdp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="45%"
+                                    android:textSize="@dimen/_13sdp"
+                                    android:textColor="@color/colorAccent2"
+                                    android:layout_gravity="center"/>
                             </LinearLayout>
 
-                            <ImageView
-                                android:layout_width="113dp"
-                                android:layout_height="70dp"
-                                android:src="@drawable/weather" />
 
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_70sdp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/nhietdo"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="89dp"
+                                        android:gravity="center"
+                                        android:text="24"
+                                        android:textColor="@color/colorAccent2"
+                                        android:textSize="@dimen/_60sdp" />
+
+                                    <ImageView
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/celsius" />
+                                </LinearLayout>
+
+                                <ImageView
+
+                                    android:id="@+id/iconweather"
+                                    android:layout_width="157dp"
+                                    android:layout_height="104dp"
+                                    android:src="@drawable/weather" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_marginTop="@dimen/_58sdp"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gió"
+                                    android:textColor="@color/colorAccent2"
+                                   android:textSize="@dimen/_20sdp" />
+                                <TextView
+                                    android:layout_marginTop="@dimen/_12sdp"
+                                    android:gravity="center"
+                                    android:id="@+id/gio"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="7.42 m/s"
+                                    android:textColor="@color/colorAccent2"
+                                    android:textSize="@dimen/_13sdp" />
+
+                            </LinearLayout>
 
                         </LinearLayout>
+
+
                     </LinearLayout>
 
+
                     <TextView
-                        android:textSize="@dimen/_13sdp"
                         android:id="@+id/thoitiet"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mưa"
-                        android:textColor="@color/colorAccent2" />
+                        android:text="mua"
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="@dimen/_13sdp" />
+
+
 
                     <TextView
-                        android:textSize="@dimen/_13sdp"
-                        android:id="@+id/gio"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Gio Bắc Đông Bắc,7.42 m/s"
-                        android:textColor="@color/colorAccent2" />
-
-                    <TextView
-                        android:textSize="@dimen/_13sdp"
                         android:id="@+id/day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="28-3-2019"
-                        android:textColor="@color/colorAccent2" />
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="@dimen/_13sdp" />
 
                     <TextView
-                        android:textSize="@dimen/_13sdp"
                         android:id="@+id/timeofday"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="10:31"
-                        android:textColor="@color/colorAccent2" />
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="@dimen/_13sdp" />
                 </LinearLayout>
             </LinearLayout>
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerview"
-                android:layout_width="397dp"
-                android:layout_height="372dp"
-                android:layout_marginLeft="7dp"
-                android:layout_marginTop="60dp"
-                android:background="@drawable/backgrow2">
+            <LinearLayout
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="@dimen/_400sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:background="@drawable/backgrow2"
+                android:orientation="vertical">
 
-            </androidx.recyclerview.widget.RecyclerView>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="tien" />
+                </androidx.recyclerview.widget.RecyclerView>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="tienkkkk" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview6time"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_8sdp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:text="Biểu đồ Nhiệt Độ và Độ Ẩm"
+                    android:textColor="@color/colorAccent2"
+                    android:textSize="@dimen/_20sdp" />
+
+
+                <com.github.mikephil.charting.charts.CombinedChart
+                    android:id="@+id/combinedChart"
+                    android:layout_width="@dimen/_288sdp"
+                    android:layout_height="223dp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@color/colorAccent1">
+
+                </com.github.mikephil.charting.charts.CombinedChart>
+            </LinearLayout>
+
+
         </LinearLayout>
     </ScrollView>
 
